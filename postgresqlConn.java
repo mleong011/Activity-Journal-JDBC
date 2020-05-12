@@ -402,9 +402,9 @@ public class postgresqlConn {
 		postgresqlConn conn = new postgresqlConn();
 		Connection c = conn.connect();
 		conn.createtables(c);
-		File users = new File("./src/users.txt");
-		File bmis = new File("./src/bmis.txt");
-		File activity = new File("./src/activity.txt");
+		File users = new File("./users.txt");
+		File bmis = new File("./bmis.txt");
+		File activity = new File("./activity.txt");
 		Scanner bmisc = new Scanner(bmis);
 		Scanner activitysc = new Scanner(activity);
 		Scanner readin = new Scanner(users);
