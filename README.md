@@ -1,4 +1,4 @@
-# Project2_Activity-Journal
+# Activity-Journal
 
 To run postgresqlConn.java program on local machine:
 * Need to have PostgreSQL installed on local machine
